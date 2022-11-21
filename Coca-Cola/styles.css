@@ -66,12 +66,23 @@ h3 {
   margin-bottom: 1rem;
   margin: 0;
 }
+.product-cirkle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fb3640;
+  position: absolute;
+}
 
 .product img {
   width: 100%;
   max-width: 300px;
   height: auto;
   border-radius: 5px;
+  background: url("Coca-Cola-bilder/Ellipse.png");
+  background-size: 230px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .products h2 {
   padding: 100px;

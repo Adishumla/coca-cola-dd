@@ -24,6 +24,9 @@ h3 {
   font-family: "nunito sans", serif;
   font-size: 24px;
 }
+li {
+  font-family: "nunito sans", sans-serif;
+}
 
 .hero {
   height: 100vh;

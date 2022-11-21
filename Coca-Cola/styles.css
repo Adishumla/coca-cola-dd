@@ -1,115 +1,279 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-    background-color: #F1DFD9;
-    color: #363732;
+  background-color: #f1dfd9;
+  color: #363732;
 }
 
 h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 3rem;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+p {
+  font-family: "nunito sans", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "nunito sans", serif;
+  font-size: 24px;
+}
+
+.hero {
+  height: 100vh;
+}
+.hero video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.products {
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ellipse {
+  width: 210px;
+  border-radius: 50%;
+  background-color: #f1dfd9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin: 0;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+.products h2 {
+  padding: 100px;
+  margin: 0;
+}
+.product p {
+  width: 250px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.history-main-img {
+  width: 100%;
+  height: auto;
+}
+.history-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px;
+  padding-top: 0;
+}
+
+.history-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 35px;
+  color: white;
+  background-color: #363732;
+  border-radius: 10px;
+}
+.history h2 {
+  padding: 100px;
+  margin: 0;
+}
+
+.history-item img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+.history-item h3 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  text-align: center;
+}
+.history-item p {
+  text-align: left;
+}
+.history-text {
+  padding-left: 50px;
+  width: 40%;
+}
+.Production {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Product img {
+}
+.Production .history-text {
+  padding-right: 50px;
+  padding-left: 0;
+}
+.Production h3 {
+  text-align: center;
+  width: 300px;
+  padding-bottom: 5px;
+}
+
+.coke-pros-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.coke-pros-container ol {
+  width: 866px;
+}
+
+.coke-pros-container li {
+  padding-bottom: 50px;
+}
+.coke-pros h2 {
+  padding: 100px;
+  margin: 0;
+}
+.coke-pros img {
+  width: 100%;
+  height: auto;
 }
 
 .truck img {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
- }
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
- .santaInfo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
-    object-fit: cover;
- }
+.santaInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  object-fit: cover;
+}
 
- .santaInfoParagraph {
-    width: 40rem;
-    padding-left: 6rem;
-    margin-top: 4rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 24px;
-    align-self: center;
-    
- }
+.santaInfoParagraph {
+  width: 40rem;
+  padding-left: 6rem;
+  margin-top: 4rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  align-self: center;
+}
 
- .santaInfoParagraph2 {
-    width: 36rem;
-    padding-right: 6rem;
-    margin-left: 9.2rem;
-    margin-top: 4rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 24px;
-    align-self: center;
-    
- }
+.santaInfoParagraph2 {
+  width: 36rem;
+  padding-right: 6rem;
+  margin-left: 9.2rem;
+  margin-top: 4rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  align-self: center;
+}
 
- .santaInfoParagraph3 {
-    width: 40rem;
-    padding-left: 6rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 24px;
-    align-self: center;
-    
- }
+.santaInfoParagraph3 {
+  width: 40rem;
+  padding-left: 6rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  align-self: center;
+}
 
- .santaInfoImg1 {
-    width: 655px;
-    height: 600px;
-    margin-left: 4rem;
-    margin-top: 4rem;
- }
+.santaInfoImg1 {
+  width: 655px;
+  height: 600px;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
 
- .santaInfoImg2 {
-    -webkit-transform: scaleX(-1);
+.santaInfoImg2 {
+  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   width: 700px;
   height: 415px;
- }
-
- .santaInfoImg3 {
-    width: 500px;
-    height: 700px;
-    margin-left: 12rem;
- }
-
-iframe {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
- }
-
-.tcccLogo {
-    width: 502px;
-    height: 284px;
 }
 
- footer {
-    width: 1440px;
-    height: 367px;
-    background-color: #363732;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
- }
+.santaInfoImg3 {
+  width: 500px;
+  height: 700px;
+  margin-left: 12rem;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.tcccLogo {
+  width: 502px;
+  height: 284px;
+}
+
+footer {
+  width: 1440px;
+  height: 367px;
+  background-color: #363732;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
 
 .footerStart {
-    justify-self: flex-start
+  justify-self: flex-start;
 }
 
 .footerCenter {
-    align-items: center;
+  align-items: center;
 }
 
 .footerEnd {
-    justify-content: flex-end;
-    align-items: center;
+  justify-content: flex-end;
+  align-items: center;
 }

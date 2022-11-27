@@ -219,6 +219,7 @@ li {
   font-family: "Nunito Sans", sans-serif;
   font-size: 24px;
   align-self: center;
+  text-align: start;
 }
 
 .santaInfoParagraph2 {
@@ -229,6 +230,7 @@ li {
   font-family: "Nunito Sans", sans-serif;
   font-size: 24px;
   align-self: center;
+  text-align: start;
 }
 
 .santaInfoParagraph3 {
@@ -237,6 +239,7 @@ li {
   font-family: "Nunito Sans", sans-serif;
   font-size: 24px;
   align-self: center;
+  text-align: start;
 }
 
 .santaInfoImg1 {
@@ -273,21 +276,40 @@ iframe {
 footer {
   width: 1440px;
   height: 367px;
+  position: relative;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
   background-color: #363732;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+  color: #f1dfd9;
 }
 
-.footerStart {
-  justify-self: flex-start;
+.footerContainer {
+  position: absolute;
+  width: 100%;
+}
+
+.footerMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: #f1dfd9;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fb3640;
+}
+
+.footerSection{
+  display: grid;
+  align-items: center;
 }
 
 .footerCenter {
-  align-items: center;
 }
 
-.footerEnd {
-  justify-content: flex-end;
-  align-items: center;
+.footerLink {
 }

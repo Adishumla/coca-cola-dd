@@ -274,6 +274,7 @@ iframe {
 }
 
 footer {
+  display: flex;
   width: 1440px;
   height: 367px;
   position: relative;
@@ -281,6 +282,7 @@ footer {
   font-size: 24px;
   background-color: #363732;
   color: #f1dfd9;
+  align-items: center;
 }
 
 .footerContainer {
@@ -309,7 +311,6 @@ footer a:hover {
 }
 
 .footerCenter {
-}
-
-.footerLink {
+  display: flex;
+  align-items: center;
 }

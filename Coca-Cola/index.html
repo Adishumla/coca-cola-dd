@@ -15,6 +15,32 @@
   </head>
 
   <body>
+    <header>
+      <!--hamburger-->
+      <div class="hamburger" onclick="this.classList.toggle('active')">
+        <div class="hamburger__line"></div>
+        <div class="hamburger__line"></div>
+        <div class="hamburger__line"></div>
+      </div>
+      <!--navigation-->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#history-link" class="nav__link">About us</a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="https://www.coca-colacompany.com/contact-us"
+              class="nav__link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
     <section class="hero">
       <!--play gif once-->
       <video
@@ -43,7 +69,7 @@
         src="https://www.youtube.com/embed/Bgqm0Iz6xx8?playlist=Bgqm0Iz6xx8&loop=1&start=1&autoplay=1&mute=1&controls=0"
         title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; playsinline; mute; loop; start=1"
         allowfullscreen
       ></iframe>
     </section>
@@ -124,11 +150,14 @@
             <br />
             <a href="https://www.coca-colacompany.com/contact-us">Contact</a>
           </div>
-            <div class="footerCenter">© <img
+          <div class="footerCenter">
+            ©
+            <img
               src="./Coca-Cola-bilder/The-Coca-Cola-Company-Logo.png"
               class="tcccLogo"
               alt="The Coca-Cola Company logo"
-            />, all rights reserved.</div>
+            />, all rights reserved.
+          </div>
 
           <div class="footerSection">
             <a href="https://www.facebook.com/cocacola/"

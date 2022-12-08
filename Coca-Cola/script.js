@@ -46,6 +46,15 @@ history_header.forEach((header, index) => {
   `;
 });
 
+//if page is 768px or less, change picture on first history item
+if (window.innerWidth <= 768) {
+  document.querySelector(".Founder img").src =
+    "Coca-Cola-bilder/John_Pemberton.jpg";
+} else {
+  document.querySelector(".Founder img").src =
+    "Coca-Cola-bilder/pemberton-coke-is-delicious 1.png";
+}
+
 const coke_pros = document.querySelector(".coke-pros-container");
 
 const pros = [

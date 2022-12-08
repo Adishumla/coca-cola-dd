@@ -59,3 +59,11 @@ coke_pros.innerHTML += `
 ${pros.map((pro) => `<li>${pro}</li>`).join("")}
 </ol>
 `;
+// on hamburger active class on nav
+const hamburger = document.querySelector(".hamburger");
+const nav = document.querySelector(".nav");
+
+hamburger.addEventListener("click", () => {
+  nav.classList.toggle("active");
+  // transform nav from right to left
+});

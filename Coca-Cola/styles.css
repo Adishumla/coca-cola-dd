@@ -219,6 +219,8 @@ li {
   .products h2 {
     padding: 20px;
     font-size: 46px;
+    padding-bottom: 70px;
+    padding-top: 70px;
   }
   .product {
     width: 40%;
@@ -231,6 +233,7 @@ li {
     padding: 0;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 70px;
   }
   .product p {
     width: 100%;
@@ -365,6 +368,8 @@ li {
   }
   #history-link {
     padding: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 
@@ -397,6 +402,8 @@ li {
   .coke-pros h2 {
     font-size: 46px;
     padding: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
   p {
     font-size: 16px;
@@ -413,7 +420,7 @@ li {
     width: 100%;
   }
   .commercial {
-    padding-top: 30px;
+    padding-top: 70px;
   }
 }
 

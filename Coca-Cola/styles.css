@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -43,23 +46,57 @@ body {
 
 .nav.active {
   display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100vh;
+
   background-color: #363732;
-  z-index: 9100;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   transform: translateX(-0%);
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 .nav {
-  transform: translateX(0%);
+  transform: translateX(100%);
+  transition: all 0.5s ease;
+  z-index: 9100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.nav li {
+  list-style: none;
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 3px;
   transition: all 0.3s ease;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "nunito sans", sans-serif;
+  font-size: 20px;
+  padding: 20px 0;
+  font-weight: 300;
+  letter-spacing: 3px;
+  transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .active .line:nth-child(1) {

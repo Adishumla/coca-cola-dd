@@ -22,6 +22,7 @@ body {
   top: 20px;
   right: 20px;
   mix-blend-mode: difference;
+  padding: 10px;
 }
 .line {
   width: 30px;

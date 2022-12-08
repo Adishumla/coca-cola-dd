@@ -76,3 +76,11 @@ hamburger.addEventListener("click", () => {
   nav.classList.toggle("active");
   // transform nav from right to left
 });
+
+// if press outside nav, nav will close
+document.addEventListener("click", (e) => {
+  if (e.target !== nav && e.target !== hamburger) {
+    nav.classList.remove("active");
+    hamburger.classList.remove("active");
+  }
+});

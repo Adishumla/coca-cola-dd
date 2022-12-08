@@ -84,3 +84,5 @@ document.addEventListener("click", (e) => {
     hamburger.classList.remove("active");
   }
 });
+
+// parallax effect on scroll for history-main-img inside history-img-container

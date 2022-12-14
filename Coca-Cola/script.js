@@ -13,8 +13,8 @@ productsArray.forEach((product) => {
           />
           <h3>Coca-Cola ${product}</h3>
           <p>
-            Coca-Cola är en kolsyrad läskedryck med colasmak som tillverkas av
-            The Coca-Cola Company, grundat 1886 i Atlanta, Georgia, USA.
+          Coca-Cola is a cola-flavored carbonated soft drink founded in 1886 in Atlanta, Georgia, USA. <br>
+          Produced ever since by <br> The Coca-Cola Company.
           </p>
         </div>
   `;

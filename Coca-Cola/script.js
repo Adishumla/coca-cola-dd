@@ -60,7 +60,7 @@ const coke_pros = document.querySelector(".coke-pros-container");
 const pros = [
   "<strong>Caffeine and bubbles </strong>improve mood and activate a person. It improves both mental and physical performance.",
   "<strong>Coca-Cola is perfect</strong> if you feel overworked and have a bad memory. The drink stimulates the neurons of the brain and improves all functions for a short time.",
-  "<strong>Coca-Cola is useful</strong> to drink with overwork and poor memory. The drink stimulates the neurons of the brain and improves all functions for a short time.",
+  "<strong>Scientists and doctors</strong> have found that one of the best treatments for gastric phytobezoar, a condition where a person has difficulty with food moving through their digestive tract and suffers stomach blockages, is a glass of Coca-Cola.",
 ];
 
 coke_pros.innerHTML += `
